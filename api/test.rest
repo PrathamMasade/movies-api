@@ -1,0 +1,15 @@
+GET  http://127.0.0.1:8000/collection/
+Content-Type: application/json
+
+{
+    "title":"col3update",
+    "description":"this is the third collection",
+    "movies":[
+        {
+            "title":"Siglo ng Pagluluwal",
+            "description":"An artist struggles to finish his work while a storyline about a cult plays in his head.",
+            "genres":"Drama",
+            "uuid":"e9548ee7-6a95-4917-893e-1fa1d3a6de40"
+        }
+    ]
+}
